@@ -1,1 +1,544 @@
-<!DOCTYPE html><html lang="en"><head>  <meta charset="UTF-8">  <meta http-equiv="X-UA-Compatible" content="IE=edge">  <meta name="viewport" content="width=device-width,initial-scale=1">  <title>Provider</title>  <link rel="stylesheet" href="css/style.min.css">  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet"></head><body>  <header class="header">    <div class="container header__container">      <div class="header-block">        <div class="logo">          <a href="./index.html">            <img src="./img/header/logo.svg" alt="logo">          </a>        </div>        <div class="header__wrapper">          <div class="header__right">            <nav class="nav">              <img class="header__close" src="./img/header/close.svg" alt="close">              <ul class="nav__list">                <li class="nav__link">                  <a href="./address.html">Поиск по адресу</a>                </li>                <li class="nav__link">                  <a href="./provider.html">Провайдеры</a>                </li>                <li class="nav__link">                  <a href="./providerItem.html">Тарифы</a>                </li>                <li class="nav__link">                  <a href="./tariffs.html">+7 999 999 99 99</a>                </li>              </ul>            </nav>            <img class="header__menu" src="./img/header/menu.svg" alt="menu">          </div>        </div>      </div>    </div>  </header>  <section class="section heroTable">    <div class="container">      <div class="heroTable__block">        <div class="heroTable__top">          <span class="heroTable__subtitle">            <a href="#" class="heroTable__link">Подключить интернет</a> / <a href="#" class="heroTable__link">Провайдеры</a>          </span>          <h1 class="heroTable__title">            Интернет провайдер Билайн          </h1>          <div class="heroTable__contact">            <div class="heroTable__contact-item">              <span class="heroTable__contact-text">Подключение:</span>              <a href="+7 (495) 984-81-80" class="heroTable__contact-tel">+7 (495) 984-81-80</a>            </div>            <div class="heroTable__contact-item">              <span class="heroTable__contact-text">Техподдержка:</span>              <a href="+7 (800) 700-80-00" class="heroTable__contact-tel">+7 (800) 700-80-00</a>            </div>          </div>          <h2 class="heroTable__desription">Проверить доступность Билайн по адресу</h2>          <form action="#" class="form search">            <label class="search__wrapper search__street">              <img class="search__img" src="./img/searchForm/location.svg" alt="">              <input list="street" class="form__input search__input" placeholder="Введите улицу и дом">              <datalist id="street">              </datalist>            </label>            <input class="search__btn btn" type="submit" value="Показать тарифы">          </form>        </div>      </div>    </div>  </section>  <section class="section filter">    <div class="container">      <div class="select-block">        <a href="" class="btn select__item-provider">О провайдере</a>        <a href="" class="btn select__item-provider">Тарифы</a>      </div>    </div>  </section>  <section class="section filter">    <div class="container">      <div class="select-block">        <select class="select__item btn">          <option selected="selected" value="Крокодил Гена">Скорость: От 100 до 500 Мб/с</option>        </select>        <select class="select__item btn select__item-provider">          <option class value="Выбрать провайдера">Цена в месяц: от 500 до 2500 ₽</option>        </select>        <select class="select__item btn select__item-provider">          <option class value="Выбрать провайдера">Сначала популярные</option>        </select>      </div>    </div>  </section>  <section class="section home">    <div class="container">      <div class="section__top">        <h2 class="section__title">Выгодные тарифы</h2>        <a to="#" class="section__close">          Показать все          <img src="./img/btnRight.svg" alt="btnRight">        </a>      </div>      <div class="home-block section-block"></div>      <div class="table">        <table class="table-block">          <thead class="table__head">            <tr class="table__head">              <th class="table__item table__head-item">Провайдер</th>              <th class="table__item table__head-item">Скорость</th>              <th class="table__item table__head-item">Каналы</th>              <th class="table__item table__head-item">Моб. Связь</th>              <th class="table__item table__head-item">Опции</th>              <th class="table__item table__head-item">Стоимость</th>            </tr>          </thead>          <tbody class="table__body">            <tr class="table__string">              <td class="table__item">                <div class="table__provider table__wrapper">                  <img class="table__img" src="./img/home/Logo.svg" alt="Logo">                  <div class="table__right">                    <span class="table__title table__provider-title">Близкие люди 3+</span>                    <p class="table__subtitle">Билайн</p>                    <span class="table__stock">Акция!</span>                  </div>                </div>              </td>              <td class="table__item">                <div class="table__speed">                  <span class="table__title">300</span>                  <p class="table__subtitle">Мбит / сек</p>                </div>              </td>              <td class="table__item table__example">                <div class="table__channel">                  <span class="table__title">180</span>                  <p class="table__subtitle">Каналов</p>                </div>              </td>              <td class="table__item">                <div class="table__mobile table__wrapper">                  <div class="table__elem">                    <span class="table__title">Безлимит</span>                    <p class="table__subtitle">гб</p>                  </div>                  <div class="table__elem">                    <span class="table__title">1200</span>                    <p class="table__subtitle">Мин</p>                  </div>                  <div class="table__elem">                    <span class="table__title">50</span>                    <p class="table__subtitle">SMS</p>                  </div>                </div>              </td>              <td class="table__item">                <div class="table__wrapper table__option">                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">                </div>              </td>              <td class="table__item">                <div class="table__wrapper table__price">                  <div class="table__left">                    <span class="table__title">990</span>                    <p class="table__subtitle">₽ / Мес</p>                  </div>                  <a href="#" class="table__btn btn">Подключить</a>                </div>              </td>            </tr>            <tr class="table__string">              <td class="table__item">                <div class="table__provider table__wrapper">                  <img class="table__img" src="./img/home/Logo.svg" alt="Logo">                  <div class="table__right">                    <span class="table__title table__provider-title">Близкие люди 3+</span>                    <p class="table__subtitle">Билайн</p>                    <span class="table__stock">Акция!</span>                  </div>                </div>              </td>              <td class="table__item">                <div class="table__speed">                  <span class="table__title">300</span>                  <p class="table__subtitle">Мбит / сек</p>                </div>              </td>              <td class="table__item table__example">                <div class="table__channel">                  <span class="table__title">180</span>                  <p class="table__subtitle">Каналов</p>                </div>              </td>              <td class="table__item">                <div class="table__mobile table__wrapper">                  <div class="table__elem">                    <span class="table__title">Безлимит</span>                    <p class="table__subtitle">гб</p>                  </div>                  <div class="table__elem">                    <span class="table__title">1200</span>                    <p class="table__subtitle">Мин</p>                  </div>                  <div class="table__elem">                    <span class="table__title">50</span>                    <p class="table__subtitle">SMS</p>                  </div>                </div>              </td>              <td class="table__item">                <div class="table__wrapper table__option">                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">                </div>              </td>              <td class="table__item">                <div class="table__wrapper table__price">                  <div class="table__left">                    <span class="table__title">990</span>                    <p class="table__subtitle">₽ / Мес</p>                  </div>                  <a href="#" class="table__btn btn">Подключить</a>                </div>              </td>            </tr>            <tr class="table__string">              <td class="table__item">                <div class="table__provider table__wrapper">                  <img class="table__img" src="./img/home/Logo.svg" alt="Logo">                  <div class="table__right">                    <span class="table__title table__provider-title">Близкие люди 3+</span>                    <p class="table__subtitle">Билайн</p>                    <span class="table__stock">Акция!</span>                  </div>                </div>              </td>              <td class="table__item">                <div class="table__speed">                  <span class="table__title">300</span>                  <p class="table__subtitle">Мбит / сек</p>                </div>              </td>              <td class="table__item table__example">                <div class="table__channel">                  <span class="table__title">180</span>                  <p class="table__subtitle">Каналов</p>                </div>              </td>              <td class="table__item">                <div class="table__mobile table__wrapper">                  <div class="table__elem">                    <span class="table__title">Безлимит</span>                    <p class="table__subtitle">гб</p>                  </div>                  <div class="table__elem">                    <span class="table__title">1200</span>                    <p class="table__subtitle">Мин</p>                  </div>                  <div class="table__elem">                    <span class="table__title">50</span>                    <p class="table__subtitle">SMS</p>                  </div>                </div>              </td>              <td class="table__item">                <div class="table__wrapper table__option">                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">                </div>              </td>              <td class="table__item">                <div class="table__wrapper table__price">                  <div class="table__left">                    <span class="table__title">990</span>                    <p class="table__subtitle">₽ / Мес</p>                  </div>                  <a href="#" class="table__btn btn">Подключить</a>                </div>              </td>            </tr>          </tbody>        </table>      </div>    </div>  </section>  <section class="pagination">    <div class="container">      <ul class="pagination-block">        <li class="pagination__item pagination__btn btn">          <img class="pagination__btn-left" src="./img/table/arrow.svg" alt="arrowRight">        </li>        <li class="pagination__item btn">1</li>        <li class="pagination__item pagination__btn btn">          <img class="pagination__btn-right" src="./img/table/arrow.svg" alt="arrowRight">        </li>      </ul>    </div>  </section>  <section class="section comment">    <div class="container">      <h2 class="section__title">Отзывы о провайдерах</h2>      <div class="comment-block">        <ul class="comment__list">          <li class="comment__item">            <div class="comment__item-block">              <img src="./img/comment/avatar1.png" alt="avatar">            </div>            <div class="comment__item-block">              <h4 class="comment__name">Неизвестный гость</h4>              <h5 class="comment__subtitle">Билайн, Москва</h5>              <a href="#" class="comment__date">23.09.2020</a>              <p class="comment__text">Скорость часто падает, и значительно меньше заявленной в тарифе, должно быть 100, но почему то обычно не превышает 50, чаще вообще около 5-20. Соединение очень...</p>            </div>          </li>          <li class="comment__item">            <div class="comment__item-block">              <img src="./img/comment/avatar1.png" alt="avatar">            </div>            <div class="comment__item-block">              <h4 class="comment__name">Неизвестный гость</h4>              <h5 class="comment__subtitle">Билайн, Москва</h5>              <a href="#" class="comment__date">23.09.2020</a>              <p class="comment__text">Скорость часто падает, и значительно меньше заявленной в тарифе, должно быть 100, но почему то обычно не превышает 50, чаще вообще около 5-20. Соединение очень...</p>            </div>          </li>          <li class="comment__item">            <div class="comment__item-block">              <img src="./img/comment/avatar1.png" alt="avatar">            </div>            <div class="comment__item-block">              <h4 class="comment__name">Неизвестный гость</h4>              <h5 class="comment__subtitle">Билайн, Москва</h5>              <a href="#" class="comment__date">23.09.2020</a>              <p class="comment__text">Скорость часто падает, и значительно меньше заявленной в тарифе, должно быть 100, но почему то обычно не превышает 50, чаще вообще около 5-20. Соединение очень...</p>            </div>          </li>        </ul>      </div>    </div>  </section>  <section class="section">    <div class="container">      <div class="section__top">        <h2 class="section__title">Контакты</h2>      </div>      <ul class="section__contact">        <li class="section__contact-item">          <span class="section__contact-title">Город</span>          <a href="#" class="section__contact-link">г. Москва</a>        </li>        <li class="section__contact-item">          <span class="section__contact-title">Главный офис</span>          <a href="#" class="section__contact-link">Тверская 6, стр. 1</a>        </li>        <li class="section__contact-item">          <span class="section__contact-title">Юридическое наименование</span>          <a href="#" class="section__contact-link">ПАО «ВымпелКом»</a>        </li>        <li class="section__contact-item">          <span class="section__contact-title">Подключение</span>          <a href="#" class="section__contact-link">+7 (495) 984-81-80</a>        </li>        <li class="section__contact-item">          <span class="section__contact-title">Техподдержка</span>          <a href="#" class="section__contact-link">+7 (800) 700-80-00</a>        </li>        <li class="section__contact-item">          <span class="section__contact-title">Официальный сайт</span>          <a href="#" class="section__contact-link">beeline.ru</a>        </li>      </ul>    </div>  </section>  <section class="section">    <div class="container">      <div class="section__top">        <p class="section__title">Часто задаваемые вопросы</p>      </div>      <div class="section-block">        <p class="section__text section__text-main">          1. Как проверить техническую возможность подключения домашнего интернета и телевидения в Москве?        </p>        <ul class="section__variant">          <li class="section__variant-item">            <div class="section__variant-point"></div>Ввести свой домашний адрес в форме поиска на сайте.          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>Обратиться к специалисту контактного центра.          </li>        </ul>        <p class="section__text section__text-main">          2. Где и как можно стать абонентом Билайн?        </p>        <p class="section__text section__text-title">Чтобы подключить услуги провайдера, воспользуйтесь наиболее удобным для Вас вариантом:</p>        <ul class="section__variant">          <li class="section__variant-item">            <div class="section__variant-point"></div>заполнение формы обратной связи на сервисе МоскваОнлайн.ру, специалист перезвонит Вам и примет заявку на подключение;          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>Обратиться к специалисту контактного центра.          </li>        </ul>        <p class="section__text section__text-main">          3. Сколько стоит домашний проводной интернет в Москве?        </p>        <p class="section__text section__text-title">Предложения от Билайн регулярно обновляются, с актуальной информацией можно ознакомиться самостоятельно или получить информацию о тарифах по телефону +7(495)984-81-80.</p>        <p class="section__text section__text-title section__text-main">          4. Какое оборудование для домашнего интернета предлагает Билайн?        </p>        <p class="section__text">Тарифные планы предусматривают множество вай-фай решений для абонента:</p>        <ul class="section__variant">          <li class="section__variant-item">            <div class="section__variant-point"></div>возможность использовать свой роутер;          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>тарифы с арендой роутера от 0 рублей в месяц;          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>гигабитные (быстрые) роутеры Smart Box GIGA и Smart Box Flash для высокоскоростных инет тарифов.          </li>        </ul>        <p class="section__text section__text-main">          5. Как временно заблокировать домашний интернет?        </p>        <p class="section__text section__text-title">Временно отключить домашнюю связь можно двумя способами:</p>        <ul class="section__variant">          <li class="section__variant-item">            <div class="section__variant-point"></div>возможность использовать свой роутер;          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>тарифы с арендой роутера от 0 рублей в месяц;          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>гигабитные (быстрые) роутеры Smart Box GIGA и Smart Box Flash для высокоскоростных инет тарифов.          </li>        </ul>        <p class="section__text section__text-main">          6. Как расторгнуть договор с ПАО «Вымпелком»?        </p>        <ul class="section__variant">          <li class="section__variant-item">            <div class="section__variant-point"></div>Необходимо составить заявление на отключение услуг. При этом необходимо погасить задолженность, если она имеется, и вернуть оборудование, находящееся в аренде.          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>Узнать в каком из офисов Билайн доступна такая возможность, можно по телефону +7(495)984-81-80 или на официальном сайте.          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>Важно. Если на счету находятся неизрасходованные деньги, то оператор должен сделать возврат средств способом, указанным абонентом.          </li>        </ul>        <p class="section__text section__text-main">          7. Как узнать свой тариф домашнего интернета Билайна?        </p>        <ul class="section__variant">          <li class="section__variant-item">            <div class="section__variant-point"></div>В Личном кабинете.          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>С помощью мобильного приложения «Мой Билайн».          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>Позвонив непосредственно представителю компании.          </li>        </ul>        <p class="section__text section__text-main">          8. Как провести платеж за интернет и связь?        </p>        <p class="section__text section__text-title">Оплачивайте как Вам удобно и привычно:</p>        <ul class="section__variant">          <li class="section__variant-item">            <div class="section__variant-point"></div>в личном кабинете на официальном портале;          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>через сервис Сбербанка по номеру лицевого счета;          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>с помощью платежных систем Яндекс. Деньги или Qiwi;          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>через терминалы оплаты;          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>в салонах связи;          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>подключив автоматический платеж.          </li>        </ul>        <p class="section__text section__text-main">          9. Как узнать баланс?        </p>        <ul class="section__variant">          <li class="section__variant-item">            <div class="section__variant-point"></div>В личном кабинете информация о балансе отображается в режиме реального времени.          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>С помощью звонка оператору.          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>Через приложение «Мой Билайн».          </li>        </ul>        <p class="section__text section__text-main">          10. Как узнать номер договора?        </p>        <ul class="section__variant">          <li class="section__variant-item">            <div class="section__variant-point"></div>Номер договора указан в бумажном варианте контракта, который монтажник выдаёт абоненту на руки в день подключения.          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>Через звонок оператору.          </li>          <li class="section__variant-item">            <div class="section__variant-point"></div>Посетить с паспортом офис компании Beeline.          </li>        </ul>      </div>    </div>  </section>  <footer class="footer">    <div class="container">      <div class="footer-block">        <p class="footer__text">© 2021 | Разработали в QStudio.org</p>      </div>    </div>  </footer>  <script src="js/script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Provider</title>
+  <link rel="stylesheet" href="css/style.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="header-block">
+        <div class="logo">
+          <a href="./index.html">
+            <img src="./img/header/logo.svg" alt="logo">
+          </a>
+        </div>
+        <div class="header__wrapper">
+          <div class="header__right">
+            <nav class="nav">
+              <img class="header__close" src="./img/header/close.svg" alt="close">
+              <ul class="nav__list">
+                <li class="nav__link">
+                  <a href="./index.html">Поиск по адресу</a>
+                </li>
+                <li class="nav__link">
+                  <a href="./provider.html">Провайдеры</a>
+                </li>
+                <li class="nav__link">
+                  <a href="./providerItem.html">Тарифы</a>
+                </li>
+                <li class="nav__link">
+                  <a href="tel: +79999999999">+7 999 999 99 99</a>
+                </li>
+              </ul>
+            </nav>
+            <img class="header__menu" src="./img/header/menu.svg" alt="menu">
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="section heroTable">
+    <div class="container">
+      <div class="heroTable__block">
+        <div class="heroTable__top">
+          <span class="heroTable__subtitle">
+            <a href="#" class="heroTable__link">Подключить интернет</a> / <a href="#" class="heroTable__link">Провайдеры</a>
+          </span>
+          <h1 class="heroTable__title">
+            Интернет провайдер Билайн
+          </h1>
+          <div class="heroTable__contact">
+            <div class="heroTable__contact-item">
+              <span class="heroTable__contact-text">Подключение:</span>
+              <a href="+7 (495) 984-81-80" class="heroTable__contact-tel">+7 (495) 984-81-80</a>
+            </div>
+            <div class="heroTable__contact-item">
+              <span class="heroTable__contact-text">Техподдержка:</span>
+              <a href="+7 (800) 700-80-00" class="heroTable__contact-tel">+7 (800) 700-80-00</a>
+            </div>
+          </div>
+          <h2 class="heroTable__desription">Проверить доступность Билайн по адресу</h2>
+          <form action="#" class="form search">
+            <label class="search__wrapper search__street">
+              <img class="search__img" src="./img/searchForm/location.svg" alt="">
+              <input list="street" class="form__input search__input" placeholder="Введите улицу и дом">
+              <datalist id="street">
+              </datalist>
+            </label>
+            <input class="search__btn btn" type="submit" value="Показать тарифы">
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section filter">
+    <div class="container">
+      <div class="select-block">
+        <a href="#" class="btn filter__option filter__button active">О провайдере</a>
+        <a href="#" class="btn filter__option filter__button">Тарифы</a>
+      </div>
+    </div>
+  </section>
+  <section class="section filter">
+    <div class="container">
+      <div class="select-block">
+        <select class="select__item btn">
+          <option selected="selected" value="Крокодил Гена">Скорость: От 100 до 500 Мб/с</option>
+        </select>
+        <select class="select__item btn select__item-provider">
+          <option class value="Выбрать провайдера">Цена в месяц: от 500 до 2500 ₽</option>
+        </select>
+        <select class="select__item btn select__item-provider">
+          <option class value="Выбрать провайдера">Сначала популярные</option>
+        </select>
+      </div>
+    </div>
+  </section>
+  <section class="section home">
+    <div class="container">
+      <div class="section__top">
+        <h2 class="section__title">Выгодные тарифы</h2>
+      </div>
+      <div class="home-block section-block"></div>
+      <div class="table">
+        <table class="table-block">
+          <thead class="table__head">
+            <tr class="table__head">
+              <th class="table__item table__head-item">Провайдер</th>
+              <th class="table__item table__head-item">Скорость</th>
+              <th class="table__item table__head-item">Каналы</th>
+              <th class="table__item table__head-item">Моб. Связь</th>
+              <th class="table__item table__head-item">Опции</th>
+              <th class="table__item table__head-item">Стоимость</th>
+            </tr>
+          </thead>
+          <tbody class="table__body">
+            <tr class="table__string">
+              <td class="table__item">
+                <div class="table__provider table__wrapper">
+                  <img class="table__img" src="./img/home/Logo.svg" alt="Logo">
+                  <div class="table__right">
+                    <span class="table__title table__provider-title">Близкие люди 3+</span>
+                    <p class="table__subtitle">Билайн</p>
+                    <span class="table__stock">Акция!</span>
+                  </div>
+                </div>
+              </td>
+              <td class="table__item">
+                <div class="table__speed">
+                  <span class="table__title">300</span>
+                  <p class="table__subtitle">Мбит / сек</p>
+                </div>
+              </td>
+              <td class="table__item table__example">
+                <div class="table__channel">
+                  <span class="table__title">180</span>
+                  <p class="table__subtitle">Каналов</p>
+                </div>
+              </td>
+              <td class="table__item">
+                <div class="table__mobile table__wrapper">
+                  <div class="table__elem">
+                    <span class="table__title">Безлимит</span>
+                    <p class="table__subtitle">гб</p>
+                  </div>
+                  <div class="table__elem">
+                    <span class="table__title">1200</span>
+                    <p class="table__subtitle">Мин</p>
+                  </div>
+                  <div class="table__elem">
+                    <span class="table__title">50</span>
+                    <p class="table__subtitle">SMS</p>
+                  </div>
+                </div>
+              </td>
+              <td class="table__item">
+                <div class="table__wrapper table__option">
+                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                </div>
+              </td>
+              <td class="table__item">
+                <div class="table__wrapper table__price">
+                  <div class="table__left">
+                    <span class="table__title">990</span>
+                    <p class="table__subtitle">₽ / Мес</p>
+                  </div>
+                  <a href="#" class="table__btn btn">Подключить</a>
+                </div>
+              </td>
+            </tr>
+            <tr class="table__string">
+              <td class="table__item">
+                <div class="table__provider table__wrapper">
+                  <img class="table__img" src="./img/home/Logo.svg" alt="Logo">
+                  <div class="table__right">
+                    <span class="table__title table__provider-title">Близкие люди 3+</span>
+                    <p class="table__subtitle">Билайн</p>
+                    <span class="table__stock">Акция!</span>
+                  </div>
+                </div>
+              </td>
+              <td class="table__item">
+                <div class="table__speed">
+                  <span class="table__title">300</span>
+                  <p class="table__subtitle">Мбит / сек</p>
+                </div>
+              </td>
+              <td class="table__item table__example">
+                <div class="table__channel">
+                  <span class="table__title">180</span>
+                  <p class="table__subtitle">Каналов</p>
+                </div>
+              </td>
+              <td class="table__item">
+                <div class="table__mobile table__wrapper">
+                  <div class="table__elem">
+                    <span class="table__title">Безлимит</span>
+                    <p class="table__subtitle">гб</p>
+                  </div>
+                  <div class="table__elem">
+                    <span class="table__title">1200</span>
+                    <p class="table__subtitle">Мин</p>
+                  </div>
+                  <div class="table__elem">
+                    <span class="table__title">50</span>
+                    <p class="table__subtitle">SMS</p>
+                  </div>
+                </div>
+              </td>
+              <td class="table__item">
+                <div class="table__wrapper table__option">
+                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                </div>
+              </td>
+              <td class="table__item">
+                <div class="table__wrapper table__price">
+                  <div class="table__left">
+                    <span class="table__title">990</span>
+                    <p class="table__subtitle">₽ / Мес</p>
+                  </div>
+                  <a href="#" class="table__btn btn">Подключить</a>
+                </div>
+              </td>
+            </tr>
+            <tr class="table__string">
+              <td class="table__item">
+                <div class="table__provider table__wrapper">
+                  <img class="table__img" src="./img/home/Logo.svg" alt="Logo">
+                  <div class="table__right">
+                    <span class="table__title table__provider-title">Близкие люди 3+</span>
+                    <p class="table__subtitle">Билайн</p>
+                    <span class="table__stock">Акция!</span>
+                  </div>
+                </div>
+              </td>
+              <td class="table__item">
+                <div class="table__speed">
+                  <span class="table__title">300</span>
+                  <p class="table__subtitle">Мбит / сек</p>
+                </div>
+              </td>
+              <td class="table__item table__example">
+                <div class="table__channel">
+                  <span class="table__title">180</span>
+                  <p class="table__subtitle">Каналов</p>
+                </div>
+              </td>
+              <td class="table__item">
+                <div class="table__mobile table__wrapper">
+                  <div class="table__elem">
+                    <span class="table__title">Безлимит</span>
+                    <p class="table__subtitle">гб</p>
+                  </div>
+                  <div class="table__elem">
+                    <span class="table__title">1200</span>
+                    <p class="table__subtitle">Мин</p>
+                  </div>
+                  <div class="table__elem">
+                    <span class="table__title">50</span>
+                    <p class="table__subtitle">SMS</p>
+                  </div>
+                </div>
+              </td>
+              <td class="table__item">
+                <div class="table__wrapper table__option">
+                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                  <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                </div>
+              </td>
+              <td class="table__item">
+                <div class="table__wrapper table__price">
+                  <div class="table__left">
+                    <span class="table__title">990</span>
+                    <p class="table__subtitle">₽ / Мес</p>
+                  </div>
+                  <a href="#" class="table__btn btn">Подключить</a>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <section class="pagination">
+    <div class="container">
+      <ul class="pagination-block">
+        <li class="pagination__item pagination__btn btn">
+          <img class="pagination__btn-left" src="./img/table/arrow.svg" alt="arrowRight">
+        </li>
+        <li class="pagination__item btn active">1</li>
+        <li class="pagination__item btn">2</li>
+        <li class="pagination__item pagination__btn btn">
+          <img class="pagination__btn-right" src="./img/table/arrow.svg" alt="arrowRight">
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="section comment">
+    <div class="container">
+      <h2 class="section__title">Отзывы о провайдерах</h2>
+      <div class="comment-block">
+        <ul class="comment__list">
+          <li class="comment__item">
+            <div class="comment__item-block">
+              <img src="./img/comment/avatar1.png" alt="avatar">
+            </div>
+            <div class="comment__item-block">
+              <h4 class="comment__name">Неизвестный гость</h4>
+              <h5 class="comment__subtitle">Билайн, Москва</h5>
+              <a href="#" class="comment__date">23.09.2020</a>
+              <p class="comment__text">Скорость часто падает, и значительно меньше заявленной в тарифе, должно быть 100, но почему то обычно не превышает 50, чаще вообще около 5-20. Соединение очень...</p>
+            </div>
+          </li>
+          <li class="comment__item">
+            <div class="comment__item-block">
+              <img src="./img/comment/avatar1.png" alt="avatar">
+            </div>
+            <div class="comment__item-block">
+              <h4 class="comment__name">Неизвестный гость</h4>
+              <h5 class="comment__subtitle">Билайн, Москва</h5>
+              <a href="#" class="comment__date">23.09.2020</a>
+              <p class="comment__text">Скорость часто падает, и значительно меньше заявленной в тарифе, должно быть 100, но почему то обычно не превышает 50, чаще вообще около 5-20. Соединение очень...</p>
+            </div>
+          </li>
+          <li class="comment__item">
+            <div class="comment__item-block">
+              <img src="./img/comment/avatar1.png" alt="avatar">
+            </div>
+            <div class="comment__item-block">
+              <h4 class="comment__name">Неизвестный гость</h4>
+              <h5 class="comment__subtitle">Билайн, Москва</h5>
+              <a href="#" class="comment__date">23.09.2020</a>
+              <p class="comment__text">Скорость часто падает, и значительно меньше заявленной в тарифе, должно быть 100, но почему то обычно не превышает 50, чаще вообще около 5-20. Соединение очень...</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="section__top">
+        <h2 class="section__title">Контакты</h2>
+      </div>
+      <ul class="section__contact">
+        <li class="section__contact-item">
+          <span class="section__contact-title">Город</span>
+          <a href="#" class="section__contact-link">г. Москва</a>
+        </li>
+        <li class="section__contact-item">
+          <span class="section__contact-title">Главный офис</span>
+          <a href="#" class="section__contact-link">Тверская 6, стр. 1</a>
+        </li>
+        <li class="section__contact-item">
+          <span class="section__contact-title">Юридическое наименование</span>
+          <a href="#" class="section__contact-link">ПАО «ВымпелКом»</a>
+        </li>
+        <li class="section__contact-item">
+          <span class="section__contact-title">Подключение</span>
+          <a href="#" class="section__contact-link">+7 (495) 984-81-80</a>
+        </li>
+        <li class="section__contact-item">
+          <span class="section__contact-title">Техподдержка</span>
+          <a href="#" class="section__contact-link">+7 (800) 700-80-00</a>
+        </li>
+        <li class="section__contact-item">
+          <span class="section__contact-title">Официальный сайт</span>
+          <a href="#" class="section__contact-link">beeline.ru</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="section">
+    <div class="container">
+      <div class="section__top">
+        <p class="section__title">Часто задаваемые вопросы</p>
+      </div>
+      <div class="section-block">
+        <p class="section__text section__text-main">
+          1. Как проверить техническую возможность подключения домашнего интернета и телевидения в Москве?
+        </p>
+        <ul class="section__variant">
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>Ввести свой домашний адрес в форме поиска на сайте.
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>Обратиться к специалисту контактного центра.
+          </li>
+        </ul>
+        <p class="section__text section__text-main">
+          2. Где и как можно стать абонентом Билайн?
+        </p>
+        <p class="section__text section__text-title">Чтобы подключить услуги провайдера, воспользуйтесь наиболее удобным для Вас вариантом:</p>
+        <ul class="section__variant">
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>заполнение формы обратной связи на сервисе МоскваОнлайн.ру, специалист перезвонит Вам и примет заявку на подключение;
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>Обратиться к специалисту контактного центра.
+          </li>
+        </ul>
+        <p class="section__text section__text-main">
+          3. Сколько стоит домашний проводной интернет в Москве?
+        </p>
+        <p class="section__text section__text-title">Предложения от Билайн регулярно обновляются, с актуальной информацией можно ознакомиться самостоятельно или получить информацию о тарифах по телефону +7(495)984-81-80.</p>
+        <p class="section__text section__text-title section__text-main">
+          4. Какое оборудование для домашнего интернета предлагает Билайн?
+        </p>
+        <p class="section__text">Тарифные планы предусматривают множество вай-фай решений для абонента:</p>
+        <ul class="section__variant">
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>возможность использовать свой роутер;
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>тарифы с арендой роутера от 0 рублей в месяц;
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>гигабитные (быстрые) роутеры Smart Box GIGA и Smart Box Flash для высокоскоростных инет тарифов.
+          </li>
+        </ul>
+        <p class="section__text section__text-main">
+          5. Как временно заблокировать домашний интернет?
+        </p>
+        <p class="section__text section__text-title">Временно отключить домашнюю связь можно двумя способами:</p>
+        <ul class="section__variant">
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>возможность использовать свой роутер;
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>тарифы с арендой роутера от 0 рублей в месяц;
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>гигабитные (быстрые) роутеры Smart Box GIGA и Smart Box Flash для высокоскоростных инет тарифов.
+          </li>
+        </ul>
+        <p class="section__text section__text-main">
+          6. Как расторгнуть договор с ПАО «Вымпелком»?
+        </p>
+        <ul class="section__variant">
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>Необходимо составить заявление на отключение услуг. При этом необходимо погасить задолженность, если она имеется, и вернуть оборудование, находящееся в аренде.
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>Узнать в каком из офисов Билайн доступна такая возможность, можно по телефону +7(495)984-81-80 или на официальном сайте.
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>Важно. Если на счету находятся неизрасходованные деньги, то оператор должен сделать возврат средств способом, указанным абонентом.
+          </li>
+        </ul>
+        <p class="section__text section__text-main">
+          7. Как узнать свой тариф домашнего интернета Билайна?
+        </p>
+        <ul class="section__variant">
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>В Личном кабинете.
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>С помощью мобильного приложения «Мой Билайн».
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>Позвонив непосредственно представителю компании.
+          </li>
+        </ul>
+        <p class="section__text section__text-main">
+          8. Как провести платеж за интернет и связь?
+        </p>
+        <p class="section__text section__text-title">Оплачивайте как Вам удобно и привычно:</p>
+        <ul class="section__variant">
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>в личном кабинете на официальном портале;
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>через сервис Сбербанка по номеру лицевого счета;
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>с помощью платежных систем Яндекс. Деньги или Qiwi;
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>через терминалы оплаты;
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>в салонах связи;
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>подключив автоматический платеж.
+          </li>
+        </ul>
+        <p class="section__text section__text-main">
+          9. Как узнать баланс?
+        </p>
+        <ul class="section__variant">
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>В личном кабинете информация о балансе отображается в режиме реального времени.
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>С помощью звонка оператору.
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>Через приложение «Мой Билайн».
+          </li>
+        </ul>
+        <p class="section__text section__text-main">
+          10. Как узнать номер договора?
+        </p>
+        <ul class="section__variant">
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>Номер договора указан в бумажном варианте контракта, который монтажник выдаёт абоненту на руки в день подключения.
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>Через звонок оператору.
+          </li>
+          <li class="section__variant-item">
+            <div class="section__variant-point"></div>Посетить с паспортом офис компании Beeline.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-block">
+        <p class="footer__text">© 2021 | Разработали в QStudio.org</p>
+      </div>
+    </div>
+  </footer>
+  <script src="js/scriptAddress.js"></script>
+</body>
+
+</html>
