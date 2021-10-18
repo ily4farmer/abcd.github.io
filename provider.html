@@ -63,22 +63,7 @@
     <div class="container">
       <div class="select-block">
         <select class="selected">
-          <option selected="selected" value="Крокодил Гена">Тип интернета</option>
-          <option value="Крокодил Гена">Игорь</option>
-          <option value="Крокодил Гена">Антон</option>
-          <option value="Крокодил Гена">Игорь</option>
-          <option value="Крокодил Гена">Игорь</option>
-          <option value="Крокодил Гена">Антон</option>
-          <option value="Крокодил Гена">Игорь</option>
-          <option value="Крокодил Гена">Игорь</option>
-          <option value="Крокодил Гена">Антон</option>
-          <option value="Крокодил Гена">Игорь</option>
-          <option value="Крокодил Гена">Игорь</option>
-          <option value="Крокодил Гена">Антон</option>
-          <option value="Крокодил Гена">Игорь</option>
-          <option value="Крокодил Гена">Игорь</option>
-          <option value="Крокодил Гена">Антон</option>
-          <option value="Крокодил Гена">Игорь</option>
+          <option selected="selected" value="all">Тип интернета</option>
         </select>
         <div class="select__wrapper">
           <input type="text" id="provider" class="select__item btn select__item-provider" placeholder="Выберите провайдера">
@@ -97,8 +82,8 @@
             </li>
           </ul>
         </div>
-        <select class="selected select__item-provider">
-          <option value="Выбрать провайдера">Сначала популярные</option>
+        <select class="selected select__popular select__item-provider">
+          <option selected="selected" value="popular">Сначала популярные</option>
         </select>
         <a href="#" class="select__submit btn">Применить</a>
       </div>
@@ -131,9 +116,9 @@
               </thead>
               <tbody class="table__body">
                 <tr class="table__string">
-                  <td class="table__item">
+                  <td class="table__item table__provider-block">
                     <div class="table__provider table__wrapper">
-                      <div class="table__right table__provider-heading">
+                      <div class="table__right">
                         <span class="table__title table__provider-title">Близкие люди 3+</span>
                         <p class="table__subtitle">Билайн</p>
                         <span class="table__stock">Акция!</span>
@@ -152,7 +137,7 @@
                       <p class="table__subtitle">Каналов</p>
                     </div>
                   </td>
-                  <td class="table__item">
+                  <td class="table__item table__mobile-block">
                     <div class="table__mobile table__wrapper">
                       <div class="table__elem">
                         <span class="table__title">Безлимит</span>
@@ -168,7 +153,7 @@
                       </div>
                     </div>
                   </td>
-                  <td class="table__item">
+                  <td class="table__item table__option-block">
                     <div class="table__wrapper table__option">
                       <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
                       <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
@@ -176,7 +161,7 @@
                       <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
                     </div>
                   </td>
-                  <td class="table__item">
+                  <td class="table__item table__price-block">
                     <div class="table__wrapper table__price">
                       <div class="table__left">
                         <span class="table__title">990</span>
@@ -187,9 +172,9 @@
                   </td>
                 </tr>
                 <tr class="table__string">
-                  <td class="table__item">
+                  <td class="table__item table__provider-block">
                     <div class="table__provider table__wrapper">
-                      <div class="table__right table__provider-heading">
+                      <div class="table__right">
                         <span class="table__title table__provider-title">Близкие люди 3+</span>
                         <p class="table__subtitle">Билайн</p>
                         <span class="table__stock">Акция!</span>
@@ -208,7 +193,7 @@
                       <p class="table__subtitle">Каналов</p>
                     </div>
                   </td>
-                  <td class="table__item">
+                  <td class="table__item table__mobile-block">
                     <div class="table__mobile table__wrapper">
                       <div class="table__elem">
                         <span class="table__title">Безлимит</span>
@@ -224,7 +209,7 @@
                       </div>
                     </div>
                   </td>
-                  <td class="table__item">
+                  <td class="table__item table__option-block">
                     <div class="table__wrapper table__option">
                       <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
                       <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
@@ -232,147 +217,7 @@
                       <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
                     </div>
                   </td>
-                  <td class="table__item">
-                    <div class="table__wrapper table__price">
-                      <div class="table__left">
-                        <span class="table__title">990</span>
-                        <p class="table__subtitle">₽ / Мес</p>
-                      </div>
-                      <a href="./tariffs.html" class="table__btn btn">Подключить</a>
-                    </div>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <a href="#" class="table__all">Все тарифы</a>
-        </div>
-        <div class="providerList__item">
-          <div class="providerList__top">
-            <div class="providerList__top-item">
-              <img src="./img/home/Logo.svg" alt="logo">
-              <h3 class="providerList__title">Билайн</h3>
-            </div>
-            <div class="providerList__top-item">
-              <a href="#" class="providerList__link">Проверить покрытие Билайн</a>
-            </div>
-          </div>
-          <div class="table">
-            <table class="table-block">
-              <thead class="table__head">
-                <tr class="table__head">
-                  <th class="table__item table__head-item">Провайдер</th>
-                  <th class="table__item table__head-item">Скорость</th>
-                  <th class="table__item table__head-item">Каналы</th>
-                  <th class="table__item table__head-item">Моб. Связь</th>
-                  <th class="table__item table__head-item">Опции</th>
-                  <th class="table__item table__head-item">Стоимость</th>
-                </tr>
-              </thead>
-              <tbody class="table__body">
-                <tr class="table__string">
-                  <td class="table__item">
-                    <div class="table__provider table__wrapper">
-                      <div class="table__right table__provider-heading">
-                        <span class="table__title table__provider-title">Близкие люди 3+</span>
-                        <p class="table__subtitle">Билайн</p>
-                        <span class="table__stock">Акция!</span>
-                      </div>
-                    </div>
-                  </td>
-                  <td class="table__item">
-                    <div class="table__speed">
-                      <span class="table__title">300</span>
-                      <p class="table__subtitle">Мбит / сек</p>
-                    </div>
-                  </td>
-                  <td class="table__item table__example">
-                    <div class="table__channel">
-                      <span class="table__title">180</span>
-                      <p class="table__subtitle">Каналов</p>
-                    </div>
-                  </td>
-                  <td class="table__item">
-                    <div class="table__mobile table__wrapper">
-                      <div class="table__elem">
-                        <span class="table__title">Безлимит</span>
-                        <p class="table__subtitle">гб</p>
-                      </div>
-                      <div class="table__elem">
-                        <span class="table__title">1200</span>
-                        <p class="table__subtitle">Мин</p>
-                      </div>
-                      <div class="table__elem">
-                        <span class="table__title">50</span>
-                        <p class="table__subtitle">SMS</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td class="table__item">
-                    <div class="table__wrapper table__option">
-                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
-                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
-                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
-                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
-                    </div>
-                  </td>
-                  <td class="table__item">
-                    <div class="table__wrapper table__price">
-                      <div class="table__left">
-                        <span class="table__title">990</span>
-                        <p class="table__subtitle">₽ / Мес</p>
-                      </div>
-                      <a href="./tariffs.html" class="table__btn btn">Подключить</a>
-                    </div>
-                  </td>
-                </tr>
-                <tr class="table__string">
-                  <td class="table__item">
-                    <div class="table__provider table__wrapper">
-                      <div class="table__right table__provider-heading">
-                        <span class="table__title table__provider-title">Близкие люди 3+</span>
-                        <p class="table__subtitle">Билайн</p>
-                        <span class="table__stock">Акция!</span>
-                      </div>
-                    </div>
-                  </td>
-                  <td class="table__item">
-                    <div class="table__speed">
-                      <span class="table__title">300</span>
-                      <p class="table__subtitle">Мбит / сек</p>
-                    </div>
-                  </td>
-                  <td class="table__item table__example">
-                    <div class="table__channel">
-                      <span class="table__title">180</span>
-                      <p class="table__subtitle">Каналов</p>
-                    </div>
-                  </td>
-                  <td class="table__item">
-                    <div class="table__mobile table__wrapper">
-                      <div class="table__elem">
-                        <span class="table__title">Безлимит</span>
-                        <p class="table__subtitle">гб</p>
-                      </div>
-                      <div class="table__elem">
-                        <span class="table__title">1200</span>
-                        <p class="table__subtitle">Мин</p>
-                      </div>
-                      <div class="table__elem">
-                        <span class="table__title">50</span>
-                        <p class="table__subtitle">SMS</p>
-                      </div>
-                    </div>
-                  </td>
-                  <td class="table__item">
-                    <div class="table__wrapper table__option">
-                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
-                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
-                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
-                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
-                    </div>
-                  </td>
-                  <td class="table__item">
+                  <td class="table__item table__price-block">
                     <div class="table__wrapper table__price">
                       <div class="table__left">
                         <span class="table__title">990</span>
@@ -411,9 +256,9 @@
               </thead>
               <tbody class="table__body">
                 <tr class="table__string">
-                  <td class="table__item">
+                  <td class="table__item table__provider-block">
                     <div class="table__provider table__wrapper">
-                      <div class="table__right table__provider-heading">
+                      <div class="table__right">
                         <span class="table__title table__provider-title">Близкие люди 3+</span>
                         <p class="table__subtitle">Билайн</p>
                         <span class="table__stock">Акция!</span>
@@ -432,7 +277,7 @@
                       <p class="table__subtitle">Каналов</p>
                     </div>
                   </td>
-                  <td class="table__item">
+                  <td class="table__item table__mobile-block">
                     <div class="table__mobile table__wrapper">
                       <div class="table__elem">
                         <span class="table__title">Безлимит</span>
@@ -448,7 +293,7 @@
                       </div>
                     </div>
                   </td>
-                  <td class="table__item">
+                  <td class="table__item table__option-block">
                     <div class="table__wrapper table__option">
                       <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
                       <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
@@ -456,7 +301,7 @@
                       <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
                     </div>
                   </td>
-                  <td class="table__item">
+                  <td class="table__item table__price-block">
                     <div class="table__wrapper table__price">
                       <div class="table__left">
                         <span class="table__title">990</span>
@@ -467,9 +312,9 @@
                   </td>
                 </tr>
                 <tr class="table__string">
-                  <td class="table__item">
+                  <td class="table__item table__provider-block">
                     <div class="table__provider table__wrapper">
-                      <div class="table__right table__provider-heading">
+                      <div class="table__right">
                         <span class="table__title table__provider-title">Близкие люди 3+</span>
                         <p class="table__subtitle">Билайн</p>
                         <span class="table__stock">Акция!</span>
@@ -488,7 +333,7 @@
                       <p class="table__subtitle">Каналов</p>
                     </div>
                   </td>
-                  <td class="table__item">
+                  <td class="table__item table__mobile-block">
                     <div class="table__mobile table__wrapper">
                       <div class="table__elem">
                         <span class="table__title">Безлимит</span>
@@ -504,7 +349,7 @@
                       </div>
                     </div>
                   </td>
-                  <td class="table__item">
+                  <td class="table__item table__option-block">
                     <div class="table__wrapper table__option">
                       <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
                       <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
@@ -512,7 +357,287 @@
                       <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
                     </div>
                   </td>
+                  <td class="table__item table__price-block">
+                    <div class="table__wrapper table__price">
+                      <div class="table__left">
+                        <span class="table__title">990</span>
+                        <p class="table__subtitle">₽ / Мес</p>
+                      </div>
+                      <a href="./tariffs.html" class="table__btn btn">Подключить</a>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <a href="#" class="table__all">Все тарифы</a>
+        </div>
+        <div class="providerList__item">
+          <div class="providerList__top">
+            <div class="providerList__top-item">
+              <img src="./img/home/Logo.svg" alt="logo">
+              <h3 class="providerList__title">Билайн</h3>
+            </div>
+            <div class="providerList__top-item">
+              <a href="#" class="providerList__link">Проверить покрытие Билайн</a>
+            </div>
+          </div>
+          <div class="table">
+            <table class="table-block">
+              <thead class="table__head">
+                <tr class="table__head">
+                  <th class="table__item table__head-item">Провайдер</th>
+                  <th class="table__item table__head-item">Скорость</th>
+                  <th class="table__item table__head-item">Каналы</th>
+                  <th class="table__item table__head-item">Моб. Связь</th>
+                  <th class="table__item table__head-item">Опции</th>
+                  <th class="table__item table__head-item">Стоимость</th>
+                </tr>
+              </thead>
+              <tbody class="table__body">
+                <tr class="table__string">
+                  <td class="table__item table__provider-block">
+                    <div class="table__provider table__wrapper">
+                      <div class="table__right">
+                        <span class="table__title table__provider-title">Близкие люди 3+</span>
+                        <p class="table__subtitle">Билайн</p>
+                        <span class="table__stock">Акция!</span>
+                      </div>
+                    </div>
+                  </td>
                   <td class="table__item">
+                    <div class="table__speed">
+                      <span class="table__title">300</span>
+                      <p class="table__subtitle">Мбит / сек</p>
+                    </div>
+                  </td>
+                  <td class="table__item table__example">
+                    <div class="table__channel">
+                      <span class="table__title">180</span>
+                      <p class="table__subtitle">Каналов</p>
+                    </div>
+                  </td>
+                  <td class="table__item table__mobile-block">
+                    <div class="table__mobile table__wrapper">
+                      <div class="table__elem">
+                        <span class="table__title">Безлимит</span>
+                        <p class="table__subtitle">гб</p>
+                      </div>
+                      <div class="table__elem">
+                        <span class="table__title">1200</span>
+                        <p class="table__subtitle">Мин</p>
+                      </div>
+                      <div class="table__elem">
+                        <span class="table__title">50</span>
+                        <p class="table__subtitle">SMS</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="table__item table__option-block">
+                    <div class="table__wrapper table__option">
+                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                    </div>
+                  </td>
+                  <td class="table__item table__price-block">
+                    <div class="table__wrapper table__price">
+                      <div class="table__left">
+                        <span class="table__title">990</span>
+                        <p class="table__subtitle">₽ / Мес</p>
+                      </div>
+                      <a href="./tariffs.html" class="table__btn btn">Подключить</a>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="table__string">
+                  <td class="table__item table__provider-block">
+                    <div class="table__provider table__wrapper">
+                      <div class="table__right">
+                        <span class="table__title table__provider-title">Близкие люди 3+</span>
+                        <p class="table__subtitle">Билайн</p>
+                        <span class="table__stock">Акция!</span>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="table__item">
+                    <div class="table__speed">
+                      <span class="table__title">300</span>
+                      <p class="table__subtitle">Мбит / сек</p>
+                    </div>
+                  </td>
+                  <td class="table__item table__example">
+                    <div class="table__channel">
+                      <span class="table__title">180</span>
+                      <p class="table__subtitle">Каналов</p>
+                    </div>
+                  </td>
+                  <td class="table__item table__mobile-block">
+                    <div class="table__mobile table__wrapper">
+                      <div class="table__elem">
+                        <span class="table__title">Безлимит</span>
+                        <p class="table__subtitle">гб</p>
+                      </div>
+                      <div class="table__elem">
+                        <span class="table__title">1200</span>
+                        <p class="table__subtitle">Мин</p>
+                      </div>
+                      <div class="table__elem">
+                        <span class="table__title">50</span>
+                        <p class="table__subtitle">SMS</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="table__item table__option-block">
+                    <div class="table__wrapper table__option">
+                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                    </div>
+                  </td>
+                  <td class="table__item table__price-block">
+                    <div class="table__wrapper table__price">
+                      <div class="table__left">
+                        <span class="table__title">990</span>
+                        <p class="table__subtitle">₽ / Мес</p>
+                      </div>
+                      <a href="./tariffs.html" class="table__btn btn">Подключить</a>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <a href="#" class="table__all">Все тарифы</a>
+        </div>
+        <div class="providerList__item">
+          <div class="providerList__top">
+            <div class="providerList__top-item">
+              <img src="./img/home/Logo.svg" alt="logo">
+              <h3 class="providerList__title">Билайн</h3>
+            </div>
+            <div class="providerList__top-item">
+              <a href="#" class="providerList__link">Проверить покрытие Билайн</a>
+            </div>
+          </div>
+          <div class="table">
+            <table class="table-block">
+              <thead class="table__head">
+                <tr class="table__head">
+                  <th class="table__item table__head-item">Провайдер</th>
+                  <th class="table__item table__head-item">Скорость</th>
+                  <th class="table__item table__head-item">Каналы</th>
+                  <th class="table__item table__head-item">Моб. Связь</th>
+                  <th class="table__item table__head-item">Опции</th>
+                  <th class="table__item table__head-item">Стоимость</th>
+                </tr>
+              </thead>
+              <tbody class="table__body">
+                <tr class="table__string">
+                  <td class="table__item table__provider-block">
+                    <div class="table__provider table__wrapper">
+                      <div class="table__right">
+                        <span class="table__title table__provider-title">Близкие люди 3+</span>
+                        <p class="table__subtitle">Билайн</p>
+                        <span class="table__stock">Акция!</span>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="table__item">
+                    <div class="table__speed">
+                      <span class="table__title">300</span>
+                      <p class="table__subtitle">Мбит / сек</p>
+                    </div>
+                  </td>
+                  <td class="table__item table__example">
+                    <div class="table__channel">
+                      <span class="table__title">180</span>
+                      <p class="table__subtitle">Каналов</p>
+                    </div>
+                  </td>
+                  <td class="table__item table__mobile-block">
+                    <div class="table__mobile table__wrapper">
+                      <div class="table__elem">
+                        <span class="table__title">Безлимит</span>
+                        <p class="table__subtitle">гб</p>
+                      </div>
+                      <div class="table__elem">
+                        <span class="table__title">1200</span>
+                        <p class="table__subtitle">Мин</p>
+                      </div>
+                      <div class="table__elem">
+                        <span class="table__title">50</span>
+                        <p class="table__subtitle">SMS</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="table__item table__option-block">
+                    <div class="table__wrapper table__option">
+                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                    </div>
+                  </td>
+                  <td class="table__item table__price-block">
+                    <div class="table__wrapper table__price">
+                      <div class="table__left">
+                        <span class="table__title">990</span>
+                        <p class="table__subtitle">₽ / Мес</p>
+                      </div>
+                      <a href="./tariffs.html" class="table__btn btn">Подключить</a>
+                    </div>
+                  </td>
+                </tr>
+                <tr class="table__string">
+                  <td class="table__item table__provider-block">
+                    <div class="table__provider table__wrapper">
+                      <div class="table__right">
+                        <span class="table__title table__provider-title">Близкие люди 3+</span>
+                        <p class="table__subtitle">Билайн</p>
+                        <span class="table__stock">Акция!</span>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="table__item">
+                    <div class="table__speed">
+                      <span class="table__title">300</span>
+                      <p class="table__subtitle">Мбит / сек</p>
+                    </div>
+                  </td>
+                  <td class="table__item table__example">
+                    <div class="table__channel">
+                      <span class="table__title">180</span>
+                      <p class="table__subtitle">Каналов</p>
+                    </div>
+                  </td>
+                  <td class="table__item table__mobile-block">
+                    <div class="table__mobile table__wrapper">
+                      <div class="table__elem">
+                        <span class="table__title">Безлимит</span>
+                        <p class="table__subtitle">гб</p>
+                      </div>
+                      <div class="table__elem">
+                        <span class="table__title">1200</span>
+                        <p class="table__subtitle">Мин</p>
+                      </div>
+                      <div class="table__elem">
+                        <span class="table__title">50</span>
+                        <p class="table__subtitle">SMS</p>
+                      </div>
+                    </div>
+                  </td>
+                  <td class="table__item table__option-block">
+                    <div class="table__wrapper table__option">
+                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                      <img class="table__option-item" src="./img/home/icon.svg" alt="icon.svg">
+                    </div>
+                  </td>
+                  <td class="table__item table__price-block">
                     <div class="table__wrapper table__price">
                       <div class="table__left">
                         <span class="table__title">990</span>
